@@ -1,0 +1,19 @@
+{
+  "name": "keykeeper",
+  "version": "1.0.0",
+  "description": "Keeps keys of projects and accommodates local/prod/herkou deployments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksonStone/keyKeeper.git"
+  },
+  "author": "",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/jacksonStone/keyKeeper/issues"
+  },
+  "homepage": "https://github.com/jacksonStone/keyKeeper#readme"
+}
