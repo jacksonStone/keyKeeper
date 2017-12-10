@@ -6,12 +6,17 @@ let keys = {};
 if(!devMode) {
 	keys = process.env;
 } else {
-	let env = JSON.parse(
+	let env = {};
+	try {
+		env = JSON.parse(
 		fs.readFileSync(
 			path.join(
 				path.dirname(require.main.filename), '.env')
 			)
 		);
+	} catch(e){
+
+	}
 	keys = env;
 }
 
